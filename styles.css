@@ -94,13 +94,15 @@
     
 }
 
-.ethereum-logo {
+#ethereum-logo {
+    display: flex; 
     justify-content: center;
     padding-right: 175px;
     padding-top: 30px;
-    display: flex; 
-    max-width: 100px;
-    max-height: 100px;
+    object-fit: scale-down;
+    
+
+
     
 }
 .middle {
