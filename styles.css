@@ -29,7 +29,7 @@
 
 .header {
    background-color: #1f2937;
-   padding-top: 40px;
+   padding-top: 30px;
    padding-left: 40px;
    padding-right: 20px;
    padding-bottom: 30px;
@@ -42,10 +42,10 @@
 
 .header-secondary-left {
     background-color: #1f2937;
-   padding-top: 40px;
+   padding-top: 20px;
    padding-left: 135px;
    padding-right: 200px;
-   padding-bottom: 9px;
+   padding-bottom: 20px;
    display: flex;
    background-size: cover; 
    color: rgb(24, 180, 185);
@@ -67,7 +67,7 @@
 
 .header-secondary {
     display: flex;
-    
+    background-color: #1f2937;
     
 }
 
@@ -91,5 +91,143 @@
 .Ethereum {
     display: flex;
     font-size: 40px;
+    
+}
+
+.ethereum-logo {
+    justify-content: center;
+    padding-right: 175px;
+    padding-top: 30px;
+    display: flex; 
+    max-width: 100px;
+    max-height: 100px;
+    
+}
+.middle {
+    display:flex; 
+    justify-content: center; 
+    padding-top: 50px;
+    
+
+}.logo-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+}
+.amazon {
+  display: flex;
+  max-width: 150px;
+  max-height: 120px;
+}
+
+.youtube {
+    display: flex;
+    max-width: 100px;
+    max-height: 100px;
+
+
+}
+
+.kraken {
+    display: flex;
+    max-width: 150px;
+    max-height: 100px;
+
+
+}
+
+.staking {
+    display: flex;
+    max-width: 100px;
+    max-height: 100px;
+
+
+}
+
+.amazon-explanation {
+
+    display:flex;
+    margin-left: 20px;
+    padding-left: 30px;
+
+
+}
+.kraken-explanation {
+    display:flex;
+
+
+}
+.youtube-explanation {
+    display:flex;
+
+}
+
+.staking-explanation {
+    display:flex;
+
+}
+
+.explanation-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.quotation {
+    justify-content: center;
+    font-weight: lighter;
+    display:flex; 
+    padding: 100px;
+    margin-top: 20px;  
+    background-color: #E5E7EB;
+    font-size: 20px;
+}
+
+.call-to-action {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+
+}
+
+.call-to-action-text {
+    display: flex;
+    background-color: #3882f6;
+   padding: 30px;
+   justify-content: center;
+   gap: 40px;
+   color: white;
+
+}
+
+.Join-us {
+
+    display: flex;
+    
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #2512ce;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+
+.closing-container {
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
     
 }
